@@ -10,6 +10,10 @@
     padding: 8px;
     border-radius: 3px;
 }
+#a p:hover{
+    background-color: rgb(1, 1, 116);
+}
+
         table {
             width: 100%;
             font-family: Arial, sans-serif;
@@ -18,7 +22,7 @@
 
         thead th {
             background-color: #2e43cc;
-            color: rgb(8, 255, 90);
+            color: rgb(255, 255, 255);
     /*padding é tipo um espaçamento: "The CSS padding properties are used to generate space around an element's content, inside of any defined borders." - (https://www.w3schools.com/css/css_padding.asp#:~:text=The%20CSS%20padding%20properties%20are,left%20padding%20of%20an%20element)*/
             padding: 12px;
             text-align: left;
