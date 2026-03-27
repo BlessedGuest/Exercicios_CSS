@@ -3,7 +3,7 @@
     size: 10%;
 }
 
-#a /*esse ''espaço' + tag' fará o código ser aplicado em cada um dos p separado*/ p {
+#a /*esse "'espaço' + tag" fará o código ser aplicado em cada um dos p separado*/ p {
     background-color: rgb(55, 55, 255);
     color: white;
     /*padding é tipo um espaçamento: "The CSS padding properties are used to generate space around an element's content, inside of any defined borders." - (https://www.w3schools.com/css/css_padding.asp#:~:text=The%20CSS%20padding%20properties%20are,left%20padding%20of%20an%20element)*/
