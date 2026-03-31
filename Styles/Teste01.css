@@ -19,7 +19,15 @@ h1 {
     font-size: 100%;
 }
 
+.texto{
+    color:black;
+    transition: 2s;
+}
 
+#botao:hover + .texto{
+    color:white;
+    background-color: black;
+}
 
 #botao {
     text-align: center;
