@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float e Clear</title>
+    <style>
+        *{
+            margin:0;
+        }
+
+        .conteudo {
+            margin: 2px, solid black;
+            color: white;
+            background-color: blue;
+            padding: 2%;
+            margin: 0.3%;
+            width: 28%;
+            height: 100px;
+            float: left;
+            transition:0.4s;
+            transition: 0,4s ease;
+        }
+
+        .conteudo:hover{
+            padding:2.5%;
+            background-color:darkblue;
+            cursor:pointer;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .principal {
+            padding:1%;
+            margin: solid black 3px;
+            background-color: red;
+        }
+
+        .p{
+            color: white;
+            margin: 3%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="principal">
+        <div class="conteudo">
+            CONTEÚDO 01
+        </div>
+        <div class="conteudo">
+            CONTEÚDO 02
+        </div>
+        <div class="conteudo">
+            CONTEÚDO 03
+        </div>
+        <div class="clear"></div>
+        <div class="p">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At saepe ab quis perferendis minus
+                necessitatibus odio facere praesentium sunt asperiores, accusantium provident? Perferendis nisi impedit
+                vitae culpa? Cum, sint ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. At saepe ab quis
+                perferendis minus necessitatibus odio facere praesentium sunt asperiores, accusantium provident?
+                Perferendis nisi impedit vitae culpa? Cum, sint ab! Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. At saepe ab quis perferendis minus necessitatibus odio facere praesentium sunt asperiores,
+                accusantium provident? Perferendis nisi impedit vitae culpa? Cum, sint ab! </p>
+        </div>
+    </div>
+</body>
+
+</html>
