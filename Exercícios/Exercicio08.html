@@ -7,10 +7,11 @@
 </head>
 <body>
     <div class="cima">Cima</div>
-    <div class="corpo">Esquerda</div>
-    <div class="corpo">Meio</div>
-    <div class="corpo">Direita</div>
-    <div class="cima">Baixo</div>
+    <div class="esquerda">Esquerda</div>
+    <div class="meio">Meio</div>
+    <div class="direita">Direita</div>
+    <div class="clear"></div>
+    <div class="baixo">Baixo</div>
 </body>
 </html>
 <style>
@@ -22,5 +23,46 @@
     .cima{
         background-color:rgb(65, 166, 255);
         padding: 30px;
+    }
+
+    .esquerda{
+        background-color: green;
+        color: white;
+        height: 60vh;
+        width: 27%;
+        margin: 2%;
+        padding: 1%;
+        float: left;
+    }
+
+    .meio{
+        background-color: yellow;
+        height: 60vh;
+        width: 27%;
+        margin: 2%;
+        padding: 1%;
+        float: left;
+    }
+
+    .direita{
+        background-color: rgb(230, 0, 255);
+        color: white;
+        height: 60vh;
+        width: 27%;
+        margin: 2%;
+        padding: 1%;
+        float: left;
+    }
+    
+    .clear{
+        clear:both;
+    }
+
+    .baixo{
+        margin-bottom: 0px;
+        background-color:rgb(153, 54, 51);
+        padding: 30px;
+        color: white;
+        height: 60px;
     }
 </style>
