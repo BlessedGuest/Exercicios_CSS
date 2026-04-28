@@ -1,0 +1,16 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.menu{
+    background-color:rgb(157, 253, 157);
+}
+
+.imagem{
+    float: left;
+}
+
+.box-pesquisa{
+    clear:both;
+}
