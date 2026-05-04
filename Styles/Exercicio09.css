@@ -1,16 +1,137 @@
-body{
-    margin:0px;
-    padding:0px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-.menu{
-    background-color:rgb(157, 253, 157);
+.menu {
+    background-color: rgb(210, 229, 210);
+    height: 100px;
 }
 
-.imagem{
+.logo {
     float: left;
+    text-indent: 20px;
+    padding: 5px;
 }
 
-.box-pesquisa{
-    clear:both;
+.menu ul {
+    float: left;
+    width: 50%;
+    margin-right: 20px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.menu ul li {
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+    font-family: 'Finger Paint', cursive;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: rgb(22, 44, 7);
+    transition: 0.2s ease;
+}
+
+.menu ul li:hover {
+    color: rgb(110, 231, 110);
+}
+
+.pesquisa {
+    width: 20%;
+    height: 30px;
+    font-size: 18px;
+    background-color: #ffffff;
+    border: solid rgb(1, 1, 1) 1.5px;
+    border-radius: 10px;
+    background-image: url(../IMG/LupaIcon.png);
+    background-size: 5%;
+    background-repeat: no-repeat;
+    background-position: top 7px right 10px;
+    margin-top: -65px;
+    margin-right: 20px;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.box-pesquisa {
+    clear: both;
+}
+
+.bg1,
+.bg2 {
+    padding: 300px;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg1 {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(../IMG/Cachoeira.gif);
+    margin-top: -4px;
+}
+
+.bg2 {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(../IMG/Ceu.png);
+    margin-top: -4px;
+}
+
+span {
+    background-color: green;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.span2{
+    background-color: rgb(1, 92, 1);
+}
+
+.separar, .separar2 {
+    background-color: rgb(210, 229, 210);
+    padding: 70px;
+    color: rgb(22, 44, 7);
+    text-align: center;
+}
+
+.separar h1 {
+    margin-top: -30px;
+}
+
+.separar p {
+    margin-top: 20px;
+}
+
+.separar2{
+    background-color:rgb(165, 255, 165);
+}
+
+.separar2 h1{
+    font-family: 'Finger Paint', cursive;
+    font-size:60px;
+    margin-top:-40px;
+    margin-bottom:20px;
+}
+
+.separar2 p{
+    font-family: 'Finger Paint', cursive;
+    font-size:20px;
+}
+
+.blocoimg{
+    margin-top:20px;
+    margin-bottom:-40px;
+    word-spacing:40px;
+}
+
+.blocoimg img{
+    border-radius:25px;
+    border: 4px rgb(13, 66, 13) dotted;
 }

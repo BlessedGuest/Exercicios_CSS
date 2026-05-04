@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 10 - CSS</title>
+    <link rel="stylesheet" href="../Styles/Exercicio10.css">
+</head>
+<style>
+
+
+    .menu {
+        width: 100%;
+    }
+
+    .menu ul {
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 800px;
+    }
+    
+    .menu ul li {
+        float: left;
+        width: 20%;
+        height: 50px;
+        line-height: 50px;
+        background-color: white;
+        border: 1px solid black;
+        text-align: center;
+        position: relative;
+        display: none;
+    }
+
+    .menu ul ul {
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 0;
+    }
+
+    li{
+        list-style-type: none;
+        text-decoration: none;
+    }
+    
+    a{
+        list-style-type: none;
+        text-decoration: none;
+    }   
+
+    .menu li ul:hover>ul {
+        display: block;
+    }
+</style>
+<body>
+    <div class="cab">
+        <div class="logo">
+            <div class="logo-img"><img src="../IMG/LogoFolhas.png" width="140px"></div>
+            <p>LIPSUM NATURA</p>
+        </div>
+        <div class="menu">
+            <li id="home">
+                <a href="#">
+                    <p>HOME</p>
+                </a>
+            </li>
+            <li><a href="#"><p>PEDIDOS</p></a>
+                <ul>
+                    <li><a href="#">LANCHES</a></li>
+                    <li><a href="#">SOBREMESAS</a></li>
+                    <li><a href="#">BEBIDAS</a>
+                        <ul>
+                            <li><a href="#">BATIDAS</a></li>
+                            <li><a href="#">MILKSHAKES</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            </li>
+            <p>ATENDIMENTO</p>
+            <p>SOBRE NÓS</p>
+        </div>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error quo cupiditate tenetur amet facilis cum, non
+            aut porro rem ratione consequuntur, magni tempore assumenda asperiores. Beatae exercitationem qui enim? In.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem pariatur, consequuntur natus consectetur
+            voluptates voluptatibus odit explicabo vel quod aut voluptatem adipisci placeat repellat culpa, architecto
+            qui tenetur, neque nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quaerat
+            officia, quibusdam alias blanditiis repudiandae excepturi eius quos quo veniam dolor ex omnis a consequatur
+            nesciunt aut provident architecto vero. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consectetur, reiciendis ex fugit, asperiores, dicta cupiditate fuga quaerat expedita cumque optio eaque
+            omnis facilis quas sint veniam mollitia culpa eligendi in?</p>
+    </div>
+</body>
+
+</html>

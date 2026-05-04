@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino 03 - CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin-bottom: 2000px;
+        }
+
+        #fundo {
+            background-color: rgb(83, 23, 139);
+        }
+
+        #conteiner {
+            background-color: white;
+            margin: 20px auto;
+            width: 750px;
+            padding: 10px;
+        }
+
+        .relativo {
+            border: solid green 3px;
+        }
+
+        .imagem img {
+            border-radius: 12px;
+            border: 2px white solid;
+            position: fixed;
+            transition: 0.3s;
+            margin-left:93%;
+            margin-top:370px;
+            transition: 0.3s ease;
+        }
+
+        .imagem img:hover {
+            cursor: pointer;
+            border: 2px;
+            border-color: rgb(252, 175, 74);
+        }
+    </style>
+</head>
+
+<body id="fundo">
+    <div id="conteiner">
+        <h1>Posicionamento</h1>
+        <p>
+            P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, amet labore quidem nemo natus eaque
+            eius laboriosam dolorum repellat autem nostrum possimus officiis ipsum doloremque, dolore, accusamus
+            accusantium est atque.
+        </p>
+        <p class="relativo">
+            P2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, amet labore quidem nemo natus eaque
+            eius laboriosam dolorum repellat autem nostrum possimus officiis ipsum doloremque, dolore, accusamus
+            accusantium est atque.
+        </p>
+        <p>
+            P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, amet labore quidem nemo natus eaque
+            eius laboriosam dolorum repellat autem nostrum possimus officiis ipsum doloremque, dolore, accusamus
+            accusantium est atque.
+        </p>
+    </div>
+    <div class="imagem"><img src="../IMG/Jonkler.png" width="70px"></div>
+</body>
+
+</html>
