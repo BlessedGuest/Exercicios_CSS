@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 12 - CSS</title>
+</head>
+<style>
+    .prod {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 600px;
+        background-color: #533a26;
+    }
+
+    .prod img {
+        border-radius: 5px;
+        float: left;
+        margin: 30px;
+        width: 340px;
+        border: solid rgb(0, 0, 0) 1px;
+    }
+
+    .banner {
+        margin-bottom: -5px;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .top11 {
+        background-color: #fde8b3;
+        height: 60px;
+        padding: 40px;
+    }
+
+    .esq_1 {
+        float: left;
+        width: 200px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #3d2a1b;
+    }
+
+    .esq_2 {
+        float: left;
+        width: 700px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #3d2a1b;
+    }
+
+    .dir_2 {
+        float: right;
+        margin-right: 100px;
+        margin-top: -10px;
+    }
+</style>
+
+<body>
+    <main>
+        <div class="banner">
+            <figure>
+                <img src="Imagem/banner_pasc.jpg">
+            </figure>
+        </div>
+        <div class="prod">
+            <figure>
+                <img src="Imagem/choc01.jpg" alt="ovo">
+            </figure>
+            <figure>
+                <img src="Imagem/choc02.jpg" alt="ovo">
+            </figure>
+            <figure>
+                <img src="Imagem/choc03.jpg" alt="ovo">
+            </figure>
+            <div class="clear"></div>
+            <figure>
+                <img src="Imagem/choc01.jpg" alt="ovo">
+            </figure>
+            <figure>
+                <img src="Imagem/choc02.jpg" alt="ovo">
+            </figure>
+            <figure>
+                <img src="Imagem/choc03.jpg" alt="ovo">
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <div class="top11">
+            <div class="esq_1">
+                <dl>
+                    <dt>
+                        <h3>Entre em Contato</h3>
+                    </dt>
+                    <dd><img src="Imagem/tel.png" width="12px"> 14-99999.1111</dd>
+                    <dd><img src="Imagem/ema.png" width="12px"> contato@abc.com</dd>
+                </dl>
+            </div>
+            <div class="esq_2">
+                <h2>
+                    Rua do Limoeiro, nº 110 - Bairro do Limão <br> Santa Cruz do Rio Pardo - SP
+                </h2>
+            </div>
+            <div class="dir_2">
+                <img src="Imagem/logo_qualidade.svg" height="80px">
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 12 - CSS</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="centro">
+            <div class="foto">
+                <img src="../IMG/IconePessoa.png" width="120px">
+            </div>
+            <form method="post" action="#">
+                <div>
+                    <input class="email" type="text" name="email" id="email" placeholder="Digite seu E-mail" required>
+                </div>
+                <div>
+                    <input class="senha" type="password" name="senha" id="senha" placeholder="Digite sua senha"
+                        required>
+                </div>
+                <div class="login">
+                    <input class="submit" type="submit" value="Logar">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url(../IMG/Background.png);
+    }
+
+    .foto {
+        background-color: white;
+        border-radius: 100%;
+        width: 120px;
+        margin-top: -110px;
+        margin-left: 240px;
+        margin-bottom: 30px;
+        align-content: center;
+        height: 120px;
+    }
+
+    .centro {
+        background-color: rgba(255, 255, 255, 0.555);
+        border-radius: 10px;
+        padding: 50px;
+        margin-top: 120px;
+        height: 200px;
+        width: 40%;
+        min-width: 400px;
+        max-width: 600px;
+        justify-self: center;
+    }
+
+    .email, .senha{
+        width: 90%;
+        margin-bottom:20px;
+        padding-left:50px;
+        height:30px;
+        font-size:20px;
+        background-repeat: no-repeat;
+        background-size: 30px;
+    }
+
+    .email{
+        background-image: url(../IMG/IconePessoa.png);
+        background-position-y:5px;
+        background-position-x: 5px;
+    }
+    
+    .senha{
+        background-image: url(../IMG/IconeCadeado.png);
+        background-position-y:0px;
+        background-position-x: 5px;
+    }
+
+    .login{
+        text-align:center;
+    }
+
+    .submit{
+        background-image: linear-gradient(red, rgb(169, 0, 0));
+        color:white;
+        border-radius: 20px;
+        font-size:30px;
+        font-weight: bold;
+        padding:50px;
+        padding-top:20px;
+        padding-bottom:20px;
+        text-align: center;
+    }
+</style>
