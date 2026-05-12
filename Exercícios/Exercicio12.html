@@ -13,9 +13,9 @@
             <div class="foto">
                 <img src="../IMG/IconePessoa.png" width="120px">
             </div>
-            <form method="post" action="#">
+            <form method="post" action="">
                 <div>
-                    <input class="email" type="text" name="email" id="email" placeholder="Digite seu E-mail" required>
+                    <input class="email" type="text" name="email" id="email" placeholder="Digite seu E-mail" required minlength="999">
                 </div>
                 <div>
                     <input class="senha" type="password" name="senha" id="senha" placeholder="Digite sua senha"
@@ -40,11 +40,11 @@
     .foto {
         background-color: white;
         border-radius: 100%;
-        width: 120px;
-        margin-top: -110px;
-        margin-left: 240px;
-        margin-bottom: 30px;
         align-content: center;
+        width:120px;
+        justify-self:center;
+        margin-top:-100px;
+        margin-bottom:30px;
         height: 120px;
     }
 

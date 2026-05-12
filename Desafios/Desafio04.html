@@ -12,11 +12,28 @@
     <header>
         <div class="cab">
             <div class="menu-list">
-                <li>HOME</li>
-                <li>LAZER</li>
-                <li>ESPORTES</li>
-                <li>CORRIDAS</li>
-                <li>E-SPORTS</li>
+                <ul>
+                    <li>HOME</li>
+                    <li>LAZER</li>
+                    <li class="esportes">ESPORTES
+                        <ul>
+                            <a href="#basquete">
+                                <li>Basquete</li>
+                            </a>
+                            <a href="#volei">
+                                <li>Vôlei</li>
+                            </a>
+                            <a href="#judo">
+                                <li>Judô</li>
+                            </a>
+                            <a href="#futebol">
+                                <li>Futebol</li>
+                            </a>
+                        </ul>
+                    </li>
+                    <li>CORRIDAS</li>
+                    <li>E-SPORTS</li>
+                </ul>
             </div>
             <div class="icones">
                 <img src="../IMG/WhatsappLogo.png" width="12px">
@@ -27,10 +44,13 @@
     </header>
     <main>
         <div class="meio">
-            <img src="../IMG/BannerSesi.png">
+            <img src="../IMG/BannerSesi.png" width="100%">
             <div class="noticias">
                 <div class="bloco1">
                     <div class="secao1">
+                        <h2>
+                            Notícias
+                        </h2>
                         <img src="../IMG/PaoDeQueijo.png">
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aperiam ut. Esse, itaque
@@ -42,6 +62,9 @@
                         </p>
                     </div>
                     <div class="secao2">
+                        <h2>
+                            Coluna
+                        </h2>
                         <img src="../IMG/Rasputin.png" width="300px">
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aperiam ut. Esse, itaque
@@ -53,21 +76,23 @@
                         </p>
                     </div>
                 </div>
-                <!-- Dá pra fazer com tabela -->
+                <div class="linha-box">
+                    <div class="linha"></div>
+                </div>
                 <div class="bloco2">
-                    <div class="basquete">
+                    <div id="basquete">
                         <p> Basquete</p>
                         <img src="../IMG/LogoIpsum5.png">
                     </div>
-                    <div class="volei">
+                    <div id="volei">
                         <p> Vôlei</p>
                         <img src="../IMG/LogoIpsum6.png">
                     </div>
-                    <div class="judo">
+                    <div id="judo">
                         <p> Judô</p>
                         <img src="../IMG/LogoIpsum7.png">
                     </div>
-                    <div class="futebol">
+                    <div id="futebol">
                         <p> Futebol</p>
                         <img src="../IMG/LogoIpsum8.png">
                     </div>
@@ -76,7 +101,7 @@
         </div>
     </main>
     <footer>
-        <p>Jornal Bella Nona - Tec. Multimídia - Senai-SP</p>
+        <p>Jornal Sesi Senai - Tec. Multimídia - Senai-SP</p>
     </footer>
 </body>
 
